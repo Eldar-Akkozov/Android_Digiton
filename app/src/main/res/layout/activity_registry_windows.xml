@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistryWindows">
+
+    <EditText
+        android:id="@+id/EditTextInfoName"
+        android:hint="Имя"
+        android:textColorHint="#8c8c8c"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/EditTextInfoLastName"
+        android:hint="Фамилия"
+        android:textColorHint="#8c8c8c"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/EditTextInfoPassword"
+        android:hint="Пароль"
+        android:textColorHint="#8c8c8c"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/EditTextInfoNamber"
+        android:hint="Номер "
+        android:textColorHint="#8c8c8c"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/TextViewInfoCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="На данный номер отправиться код потверждения"
+        android:textColor="#000000"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/ButtonInfoCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="получить код"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/EditTextInfoCode"
+        android:hint="Код потверждения"
+        android:textColorHint="#8c8c8c"
+        android:textSize="27dp"
+        android:textColor="#000000"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="На даавиться код потверждения"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ButtonInfoFinish"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="зарегистрироваться"
+        android:textSize="20dp" />
+
+</LinearLayout>
